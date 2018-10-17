@@ -1,0 +1,16 @@
+{
+  "name": "mp-toast-component",
+  "version": "0.0.1",
+  "description": "",
+  "main": "miniprogram_dist/component/index.js",
+  "scripts": {},
+  "miniprogram": "miniprogram_dist/component",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openUmbrella/mp-toast-component.git"
+  },
+  "author": "openumbrella",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}

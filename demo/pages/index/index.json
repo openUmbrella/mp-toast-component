@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "Toast": "../component"
+  }
+}

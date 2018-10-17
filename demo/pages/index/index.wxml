@@ -1,0 +1,9 @@
+<Toast id='hahah'/>
+
+<view>=======toast提示框=======</view>
+<view bindtap='loading'>loading</view>
+<view bindtap='success'>success</view>
+<view bindtap='error'>error</view>
+<view bindtap='info'>info</view>
+<view bindtap='warn'>warn</view>
+<view bindtap='hide'>hide</view>

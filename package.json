@@ -1,6 +1,6 @@
 {
   "name": "mp-toast-component",
-  "version": "0.0.3",
+  "version": "0.0.7",
   "description": "wechat miniprogram custom component for showing a better toast",
   "main": "miniprogram_dist/index.js",
   "scripts": {},
@@ -12,5 +12,6 @@
   "author": "openumbrella",
   "license": "MIT",
   "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+  }
 }

@@ -19,7 +19,7 @@ const ICON = {
  * options的属性及默认值
  */
 const defaultOptions = {
-  mask: true, // 是否显示遮罩 注意:如果显示遮罩的时,任何触摸事件都传递不到页面上去了
+  mask: false, // 是否显示遮罩 注意:如果显示遮罩的时,任何触摸事件都传递不到页面上去了
   maskColor: 'rgba(0, 0, 0, 0.0)', // 透明
   text: '加载中...', // 显示的文本
   icon: ICON.loading, // 显示的图标路径

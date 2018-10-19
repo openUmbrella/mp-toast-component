@@ -37,22 +37,22 @@ import {
 ```
 loading: function () {
     Toast.showLoading('loading...');
-  },
-  success: function () {
+},
+success: function () {
     Toast.showSuccess('success');
-  },
-  info: function () {
+},
+info: function () {
     Toast.showInfo('this is a message');
-  },
-  warn: function () {
+},
+warn: function () {
     Toast.showWarn('warning warning');
-  },
+},
 
-  error: function () {
+error: function () {
     Toast.showError("error: don't touch that button");
-  },
-  hide: function () {
+},
+hide: function () {
     Toast.hide();
-  },
+},
 
 ```

@@ -1,0 +1,6 @@
+<!--components/toast/toast.wxml-->
+<view class='toast-mask' style="background-color: {{maskColor}};" wx:if="{{visible && mask}}" animation="{{fadeAniData}}" catchtouchstart='captrueEvent' catchtouchmove='captrueEvent'></view>
+<view class='toast-content' wx:if="{{visible}}" animation="{{fadeAniData}}">
+  <image class='toast-image' wx:if="{{showIcon}}" src='{{icon}}'></image>
+  <text class='toast-text' wx:if="{{showText}}">{{text}}</text>
+</view>

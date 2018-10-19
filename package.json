@@ -1,10 +1,10 @@
 {
   "name": "mp-toast-component",
-  "version": "0.0.1",
-  "description": "",
-  "main": "miniprogram_dist/component/index.js",
+  "version": "0.0.3",
+  "description": "wechat miniprogram custom component for showing a better toast",
+  "main": "miniprogram_dist/index.js",
   "scripts": {},
-  "miniprogram": "miniprogram_dist/component",
+  "miniprogram": "miniprogram_dist",
   "repository": {
     "type": "git",
     "url": "https://github.com/openUmbrella/mp-toast-component.git"

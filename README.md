@@ -2,6 +2,9 @@
 
 微信小程序自定义toast组件，提供比原生更好都表现。
 
+#### [代码片段地址](https://developers.weixin.qq.com/s/1cnUdHmi7S3B)
+
+
 #### 功能
 1. 简便的api调用方法（Toast.showLoading('msg...')、showSuccess()、showError()、showInfo()）
 2. 提供背景遮罩属性
@@ -13,8 +16,8 @@
 
 ```
 "usingComponents": {
-    "toast": "mp-toast-component"
-  }
+"toast": "mp-toast-component"
+}
 ```
 2. 在页面的.wxml文件中添加组件,并指定id(#必须#)
 
@@ -28,7 +31,7 @@
 ```
 <!-- 页面.js -->
 import {
-  Toast,
+Toast,
 } from 'mp-toast-component';
 ```
 
@@ -36,23 +39,23 @@ import {
 
 ```
 loading: function () {
-    Toast.showLoading('loading...');
+Toast.showLoading('loading...');
 },
 success: function () {
-    Toast.showSuccess('success');
+Toast.showSuccess('success');
 },
 info: function () {
-    Toast.showInfo('this is a message');
+Toast.showInfo('this is a message');
 },
 warn: function () {
-    Toast.showWarn('warning warning');
+Toast.showWarn('warning warning');
 },
 
 error: function () {
-    Toast.showError("error: don't touch that button");
+Toast.showError("error: don't touch that button");
 },
 hide: function () {
-    Toast.hide();
+Toast.hide();
 },
 
 ```
